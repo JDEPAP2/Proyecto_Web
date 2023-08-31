@@ -3,6 +3,10 @@ import Home from "../Pages/Home"
 import Iniciar from "../Pages/Iniciar"
 import Mensajes from "../Pages/Mensajes"
 import Perfil from "../Pages/Perfil"
+import CrearAlojamiento from "../Pages/CrearAlojamiento"
+import Favoritos from "../Pages/Favoritos"
+import MisAlojamientos from "../Pages/MisAlojamientos"
+import Reservar from "../Pages/Reservar"
 
 const App = () => {
   return (
@@ -13,6 +17,10 @@ const App = () => {
       <Alojamiento/>
       <Iniciar/>
       <Mensajes/>
+      <Favoritos/>
+      <Reservar/>
+      <MisAlojamientos/>
+      <CrearAlojamiento/>
     </>
   )
 }
