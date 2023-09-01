@@ -1,5 +1,5 @@
-import IconPanelBoton from "../Components/IconPanelBoton"
-import NavBar from "../Shared/NavBar"
+import IconPanelBoton from "../../Components/IconPanelBoton/IconPanelBoton"
+import NavBar from "../../Shared/NavBar/NavBar"
 
 const Iniciar = () => {
     return (

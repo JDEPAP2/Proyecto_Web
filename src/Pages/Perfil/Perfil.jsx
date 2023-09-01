@@ -1,7 +1,7 @@
-import CardInfo from "../Components/CardInfo"
-import CardPersona from "../Components/CardPersona"
-import IconPanelBoton from "../Components/IconPanelBoton"
-import NavBar from "../Shared/NavBar"
+import CardInfo from "../../Components/CardInfo/CardInfo"
+import CardPersona from "../../Components/CardPersona/CardPersona"
+import IconPanelBoton from "../../Components/IconPanelBoton/IconPanelBoton"
+import NavBar from "../../Shared/NavBar/NavBar"
 
 const Perfil = () => {
     return (
