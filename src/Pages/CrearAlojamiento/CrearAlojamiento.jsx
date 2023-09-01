@@ -1,5 +1,5 @@
-import PanelArrastrar from "../Components/PanelArrastrar"
-import NavBar from "../Shared/NavBar"
+import PanelArrastrar from "../../Components/PanelArrastrar/PanelArrastrar"
+import NavBar from "../../Shared/NavBar/NavBar"
 
 const CrearAlojamiento = () => {
     return (
