@@ -1,5 +1,5 @@
-import ChatPersona from "../Components/ChatPersona"
-import EstadoPersona from "../Components/EstadoPersona"
+import ChatPersona from "../../Components/ChatPersona/ChatPersona"
+import EstadoPersona from "../../Components/EstadoPersona/EstadoPersona"
 
 const Mensajes = () => {
     return (
