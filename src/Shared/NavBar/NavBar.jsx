@@ -1,4 +1,4 @@
-import BusquedaBar from "../Components/BusquedaBar"
+import BusquedaBar from "../../Components/BusquedaBar/BusquedaBar"
 
 const NavBar = () => {
     return (

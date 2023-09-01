@@ -1,5 +1,5 @@
-import ItemAlojamiento from "../Components/ItemAlojamiento"
-import NavBar from "../Shared/NavBar"
+import ItemAlojamiento from "../../Components/ItemAlojamiento/ItemAlojamiento"
+import NavBar from "../../Shared/NavBar/NavBar"
 
 const MisAlojamientos = () => {
     return (

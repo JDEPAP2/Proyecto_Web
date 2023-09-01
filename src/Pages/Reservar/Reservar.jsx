@@ -1,4 +1,4 @@
-import NavBar from "../Shared/NavBar"
+import NavBar from "../../Shared/NavBar/NavBar"
 
 const Reservar = () => {
     return (
