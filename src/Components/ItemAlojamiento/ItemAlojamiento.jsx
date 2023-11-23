@@ -1,6 +1,15 @@
-export const ItemAlojamiento = () => {
+import Image from "../../Media/place.jpg"
+import './ItemAlojamiento.css'
+
+export const ItemAlojamiento = ({nombre}) => {
     return (
-      <><p>ItemAlojamiento</p></>
+      <>
+        <div className="cont">
+          <img src={Image}></img>
+          <p className="label">{nombre}</p>
+          <p className="label2">Direccion</p>
+        </div>
+      </>
     )
 }
   

@@ -1,0 +1,21 @@
+.cont{
+    display: block;
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.label{
+    color: black;
+    font-weight: bold;
+}
+
+.label2{
+    color: black;
+}
