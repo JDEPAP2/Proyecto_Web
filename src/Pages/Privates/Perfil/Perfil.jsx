@@ -1,12 +1,16 @@
 import { CardInfo, CardPersona, IconPanelBoton } from "../../../Components"
+import './Perfil.css'
 
 export const Perfil = () => {
     return (
       <>
-        <h2>Perfil</h2>
-        <CardInfo/>
-        <CardPersona/>
-        <IconPanelBoton/>
+        <h1>Perfil</h1>
+        <hr></hr>
+        <br></br>
+        <div className="contain">
+          <CardInfo/>
+          <CardPersona/>
+        </div>
       </>
     )
 }

@@ -1,5 +1,10 @@
+import Image from "../../Media/profile.png"
+import './CardInfo.css'
+
 export const CardInfo = () => {
     return (
-      <><p>CardInfo</p></>
+      <>
+        <img src={Image}></img>
+      </>
     )
   }
