@@ -1,7 +1,10 @@
+import Image from "../../Media/map.png"
+import './Mapa.css'
+
 export const Mapa = () => {
     return (
       <>
-        <p>Mapa</p>
+        <img className="imgLocation" src={Image}></img>
       </>
     )
   }

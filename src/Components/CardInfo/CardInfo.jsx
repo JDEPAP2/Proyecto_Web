@@ -4,7 +4,7 @@ import './CardInfo.css'
 export const CardInfo = () => {
     return (
       <>
-        <img src={Image}></img>
+        <img className="img" src={Image}></img>
       </>
     )
   }

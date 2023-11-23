@@ -21,7 +21,8 @@ export const NavBar = ()=>{
             {user?<div>
                     <NavLink className={(param)=>param.isActive?styles.Link:styles.Active_Link} to="user/">Intro</NavLink>
                     <NavLink className={(param)=>param.isActive?styles.Link:styles.Active_Link} to={`user/${user?.userName}`}>Profile</NavLink>
-                    <NavLink className={(param)=>param.isActive?styles.Link:styles.Active_Link}  onClick={()=>onLogOut()} to="login">Log Out</NavLink>
+                    <NavLink className={(param)=>param.isActive?styles.Link:styles.Active_Link} to={`user/myHousings/${user?.userName}`}>Mis Alojamientos</NavLink>
+                    <NavLink className={(param)=>param.isActive?styles.Link:styles.Active_Link}  onClick={()=>onLogOut()} to="/">Log Out</NavLink>
                 </div>:<div>
                     <NavLink className={(param)=>param.isActive?styles.Link:styles.Active_Link} to="/">Iniciar</NavLink>
                 </div>}

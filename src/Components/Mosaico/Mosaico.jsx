@@ -1,7 +1,8 @@
 export const Mosaico = () => {
     return (
       <>
-        <p>Mosaico</p>
+        <p>Esta es la descripcion del lugar</p>
+        <br></br>
       </>
     )
   }
