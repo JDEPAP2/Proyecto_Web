@@ -1,7 +1,5 @@
-const CardInfo = () => {
+export const CardInfo = () => {
     return (
       <><p>CardInfo</p></>
     )
   }
-  
-export default CardInfo

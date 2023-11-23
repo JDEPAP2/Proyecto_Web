@@ -1,7 +1,6 @@
-const PanelArrastrar = () => {
+export const PanelArrastrar = () => {
     return (
       <><p>PanelArrastrar</p></>
     )
   }
   
-export default PanelArrastrar

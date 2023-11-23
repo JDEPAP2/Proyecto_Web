@@ -1,7 +1,6 @@
-const ItemPersona = () => {
+export const ItemPersona = () => {
     return (
       <><p>ItemPersona</p></>
     )
   }
   
-export default ItemPersona
